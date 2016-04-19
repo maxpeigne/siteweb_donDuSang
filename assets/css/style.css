@@ -1,0 +1,61 @@
+/* ~~~~~~~~~~~Police ~~~~~~~~~~~ */
+@font-face{
+	font-family: 'HelveticaNeue';
+	src: 	url('assets/fonts/helveticaneueltstdlt.afm') format('afm'),
+			url('assets/fonts/helveticaneueltstdlt.dfont') format('dfont'),
+			url('assets/fonts/helveticaneueltstdlt.ttf') format('truetype'),
+			url('assets/fonts/helveticaneueltstdlt.otf') format('otf');
+}
+@font-face{
+	font-family: 'Helvetica';
+	src: 	url('assets/fonts/helvetica.afm') format('afm'),
+			url('assets/fonts/helvetica.dfont') format('dfont'),
+			url('assets/fonts/helvetica.ttf') format('truetype'),
+			url('assets/fonts/helvetica.otf') format('otf');
+}
+
+h1 {
+	font-family: HelveticaNeue,Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+/* ~~~~~~~~~~~ Fin De Police ~~~~~~~~~~~ */
+header ul{
+	font-size: 1.5em;
+	border: solid 1px blue;
+}
